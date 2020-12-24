@@ -100,3 +100,4 @@ Show predictions and trends in graphical presentation.
 
 https://youtu.be/PonRCMi4ewk
 
+![Python application test with Github Actions](https://github.com/ramachilu/cicd-project/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
