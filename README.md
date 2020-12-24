@@ -6,7 +6,7 @@ In this project we have used GitHub Actions to demonstrate CI and for CD, we hav
 
 ## Project Plan
 
-Project plan be accessed via below provied Trello board and Excel spreadsheet links.
+Project plan be accessed via below provided Trello board and Excel spreadsheet links.
 
 * Trello board for the project can be found [here](https://trello.com/b/uw12MCZA/ci-cd-project-board)
 * Project plan spreadsheet can be found [here](https://docs.google.com/spreadsheets/d/1W77rjeQvvhYIlLO8SiMH0nnejKKMbAHbGltJRRJnQKA/edit#gid=1348135932)
@@ -39,7 +39,13 @@ Details Screenshot:
 ![CD-Architecture](https://user-images.githubusercontent.com/76182381/103097352-f6be9300-45d4-11eb-9fea-72045aef3f7d.png)
 
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+### Instructions for running the Python project.
+
+1. Clone this GitHub repository to your GitHub account.
+2. Login to Azure portal and start Cloud Shell.
+3. git clone the repo from Cloud Shell. Please refer to the screenshot below.
+4. Start a webapp with unique appservice name.
+5. Once app is up, run './make_predict_azure_app.sh' script to make predictions and check log entries for predicted values.
 
 * Project cloned into Azure Cloud Shell
 
@@ -64,23 +70,27 @@ Details Screenshot:
 
 ![Azure-pipeline](https://user-images.githubusercontent.com/76182381/103098681-a990f000-45d9-11eb-9d6b-1799f6af7cb4.png)
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
+![Azure-pipeline-deployments](https://user-images.githubusercontent.com/76182381/103100207-8a955c80-45df-11eb-9349-9aa7742da090.png)
+
+* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/ramachilu/cicd-project/blob/main/make_predict_azure_app.sh).
 
 The output should look similar to this:
 
 ```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
+rama@Azure:~/cicd-project$ ./make_predict_azure_app.sh
 Port: 443
 {"prediction":[20.35373177134412]}
 ```
 
 * Output of streamed log files from deployed application
 
-> 
+![log-messages-from-cloud-shell](https://user-images.githubusercontent.com/76182381/103100145-5621a080-45df-11eb-96bc-de4cdde9a6f4.png)
+
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+This project can be improved by adding feature to have GET methods to access the app from browser.
+Show predictions and trends in graphical presentation.
 
 ## Demo 
 
