@@ -2,7 +2,7 @@
 
 Simple Flask Machine Learning application to demonstrate Continuous Integration (CI) and Continuous Delivery (CD).
 
-In this project we have used GitHub Actions to demonstrate CI and for CD, we have have used Azure pipelines.
+In this project we have used GitHub Actions to demonstrate CI and for CD, we have used Azure pipelines.
 
 ## Project Plan
 
