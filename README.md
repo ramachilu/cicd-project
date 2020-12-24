@@ -13,6 +13,10 @@ Project plan be accessed via below provided Trello board and Excel spreadsheet l
 
 ## Instructions
 
+Agile Project Management architecture diagram,
+
+![Agile_Prj_Mgt](https://user-images.githubusercontent.com/76182381/103105108-94c45480-45f9-11eb-8b35-79875b385959.png)
+
 ## Continuous Integration
 
 * Architectural Diagram 
