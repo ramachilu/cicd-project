@@ -63,10 +63,11 @@ Details Screenshot:
 
 ![lint-pass](https://user-images.githubusercontent.com/76182381/103097904-dc85b480-45d6-11eb-9ae1-cb71cbeae798.png)
 
+![make_all_test_pass](https://user-images.githubusercontent.com/76182381/103112060-c7ce0e80-4620-11eb-89f7-97b2a11653eb.png)
+
 * Output of a test run
 
-![Make-prediction-test](https://user-images.githubusercontent.com/76182381/103097950-0f2fad00-45d7-11eb-8ec7-d0834d760c28.png)
-
+![Accessing_app_from_browser](https://user-images.githubusercontent.com/76182381/103112083-f815ad00-4620-11eb-8fd6-120cb87ebb75.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
@@ -80,6 +81,11 @@ Details Screenshot:
 
 The output should look similar to this:
 
+![local_prediction](https://user-images.githubusercontent.com/76182381/103112100-0cf24080-4621-11eb-96b3-31adcba09898.png)
+
+![Make-prediction-test](https://user-images.githubusercontent.com/76182381/103097950-0f2fad00-45d7-11eb-8ec7-d0834d760c28.png)
+
+
 ```bash
 rama@Azure:~/cicd-project$ ./make_predict_azure_app.sh
 Port: 443
@@ -89,6 +95,10 @@ Port: 443
 * Output of streamed log files from deployed application
 
 ![log-messages-from-cloud-shell](https://user-images.githubusercontent.com/76182381/103100145-5621a080-45df-11eb-96bc-de4cdde9a6f4.png)
+
+* Locust load test
+
+![locust_results](https://user-images.githubusercontent.com/76182381/103112124-3a3eee80-4621-11eb-9484-0c97e72cc0ef.png)
 
 
 ## Enhancements
