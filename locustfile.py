@@ -8,9 +8,4 @@ class QuickstartUser(HttpUser):
 
     @task(3)
     def view_item(self):
-        for item_id in range(10):
-            self.client.post(f"/item?id={item_id}", name="/predict")
-            time.sleep(1)
-
-    def on_start(self):
-        self.client.post("/login", json={"username":"foo", "password":"bar"})
+        self.client.post("/predict", json={"CHAS":{"0":0},"RM":{"0":6.575},"TAX":{"0":296.0},"PTRATIO":{"0":15.3},"B":{"0":396.9},"LSTAT":{"0":4.98}})
